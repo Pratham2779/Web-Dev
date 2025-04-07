@@ -1,0 +1,141 @@
+/* App.css */
+.App-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row; /* Updated to row */
+  flex-wrap: nowrap;
+}
+
+.chat-container {
+  flex: 1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar {
+  width: 70px; 
+  height: 100vh;
+  background-color: #f0f4f9;
+}
+.search-results{
+  height:100vh;
+  width:100%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+
+}
+.Input-container{
+  align-self: center;
+  max-width: 770px;
+  width: 80%;
+  height: 8rem;
+}
+ h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family:'Nunito';
+  background: linear-gradient(to right, #5A8DEE 0%, #AA67DD 25%, #F16E8A 75%);
+  -webkit-background-clip: text;
+  background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+  margin: 0;
+} 
+.Avatar-container{
+  height:100%;
+  max-height: 82vh;
+  width:2rem;
+}
+.result-content-container{
+  max-width: 770px;
+  width: 80%;
+  height:100%;
+  max-height:82vh;
+  padding-right:20px;
+  padding-left:10px;
+  overflow-y: scroll;
+
+}
+.result-content-container::-webkit-scrollbar{
+  display: none;
+}
+.Gemini-icon {
+  height:1.8rem;
+  width:1.8rem;
+  color: #458cd6;
+}
+
+
+.Gemini-icon-active{
+  animation: rotate 2.5s infinite linear;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.loader{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  
+}
+.loader hr{
+  border-radius: 4px;
+  background-color: #f6f7f8;
+  border:0px solid black;
+  background: linear-gradient(to right,#9ed7ff,#ffffff,#9ed7ff);
+  background-size: 800px 50px;
+  height:20px;
+  animation: loader 3s infinite linear;
+}
+@keyframes loader {
+  0%{
+    background-position:-800px 0px ;
+  }
+  100%{
+      background-position: 800px 0px;
+  }
+  
+}
+
+.result-content-container p{
+  font-size: 17px;
+  font-weight: 550;
+  line-height: 1.8;
+  font-family: 'Nunito';
+}
+
+.userQuery{
+  min-height:2.7rem;
+  margin-top:2px;
+  
+}
+
+.userPrompt{
+  min-height:2rem;
+  float:right;
+  width:auto;
+  max-width: 25rem;
+  font-family: 'Nunito';
+  font-weight:600;
+  background-color: #f0f4f9;
+  padding:20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius:50px;
+  border-bottom-left-radius:50px;
+  border-bottom-right-radius:50px;
+  
+}
+
+

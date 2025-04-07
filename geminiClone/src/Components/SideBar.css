@@ -1,0 +1,159 @@
+
+.sideBar-container {
+  width: 71px;
+  height: 100%;
+  background-color: #f0f4f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-button {
+  height: 38px;
+  width: 38px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-button:hover {
+  background-color: #e3e5e7;
+  cursor: pointer;
+}
+
+.top-button-2 {
+  background-color: #e4e9ed;
+}
+
+.newChat-menu-container {
+  background-color: aqua;
+  height: 11px;
+  width: 11px;
+  border-radius: 50px;
+}
+
+.bottom-button {
+  height: 37px;
+  width: 37px;
+  border-radius: 50px;
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-button:hover {
+  background-color: #e3e5e7;
+  cursor: pointer;
+}
+
+.bottom-button-container {
+  margin-bottom: 42px;
+}
+
+.top-button-container {
+  margin-top: 20px;
+  height: 114px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toggle-menu-icon {
+  height: 19px;
+  width: 19px;
+  color: black;
+}
+
+.new-chat-icon {
+  height: 19px;
+  width: 19px;
+  color: #989ca1;
+}
+
+.bottom-icon {
+  height: 19px;
+  width: 19px;
+  color: #3c4043;
+}
+.toggle{
+  width:320px;
+}
+.botton-cards-after-toggle{
+ display: flex;
+ align-items: center;
+ height: 37px;
+  width: 37px;
+  border-radius: 50px;
+  margin: 2px;
+  width:290px;
+  padding-left:15px;
+  font-family: 'Nunito';
+  font-weight: 600;
+  span{
+    margin-left:16px;
+  }
+}
+.botton-cards-after-toggle:hover{
+  background-color: #e3e5e7;
+  cursor: pointer;
+}
+.button-container-after-toggle{
+  width:290px;
+}
+.top-button-container-after-toggle{
+  margin-top: 20px;
+  height: 114px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width:290px;
+}
+.top-button-after-toggle{
+  height: 38px;
+  width: 38px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  width:290px;
+  padding-left:15px;
+  font-family: 'Nunito';
+  font-weight: 600;
+  span{
+    margin-left:16px;
+  }
+}
+.top-button-after-toggle:hover{
+  cursor: pointer;
+}
+.recent-section{
+  height:590px;
+  width:290px;
+
+  span{
+    display: flex;
+ align-items: center;
+ height: 37px;
+  width: 37px;
+  border-radius: 50px;
+  width:290px;
+  padding-left:15px;
+  font-family: 'Nunito';
+  font-weight: 600;
+  }
+ 
+  
+}
+.recent-section{
+  span:hover{
+    background-color: #e3e5e7;
+    cursor: pointer;
+  }
+}
+.recent-icon{
+  margin-right:20px;
+}
